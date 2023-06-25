@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IPL Project</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/6f5013579e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header Section start -->
+    <header>
+      <div id="headContainer">
+        <div id="rightDiv">
+          <img
+            src="https://cdn.storyasset.link/rDoQLC7Q6Ge2nxiqZ1urXiiRSIA3/tata-ipl-logo-indya-talks-sanket-savaliya-removebg-preview-ms-qeladdzjmt.png"
+            alt="logo here"
+            id="logo"
+          />
+          <a href="index.html">
+            <button id="home-button" class="add-button">Home</button></a
+          >
+        </div>
+        <div id="leftDiv">
+          <div class="search-input">
+            <a href="" target="_blank" hidden></a>
+            <input type="text" placeholder="Enter team code" />
+            <div class="autocom-box"></div>
+            <div class="icon"><i class="fas fa-search"></i></div>
+          </div>
+          <button
+            id="add-team-button"
+            class="add-button"
+          >
+            Add A Team
+          </button>
+          <button
+            id="add-player-button"
+            class="add-button"
+            
+          >
+            Add A Player
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- Header Section end -->
+    <div class="slider">
+      <div class="slides">
+        <input type="radio" name="radioBtn" id="radio1" />
+        <input type="radio" name="radioBtn" id="radio2" />
+        <input type="radio" name="radioBtn" id="radio3" />
+        <input type="radio" name="radioBtn" id="radio4" />
+
+        <div class="slide">
+          <img src="./images/img1.png" alt="" />
+        </div>
+        <div class="slide first">
+          <img src="./images/img2.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./images/img3.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./images/img4.png" alt="" />
+        </div>
+
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+      </div>
+    </div>
+
+    <h1 id="heading">ALL TEAMS IN IPL 2023</h1>
+    <div id="first-main">
+      <div id="container_teams"></div>
+    </div>
+    <footer>
+      <div><h4>IPL Cricket Teams © 2023</h4></div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
